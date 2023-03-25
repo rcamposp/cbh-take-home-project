@@ -9,3 +9,10 @@ You've been asked to refactor the function `deterministicPartitionKey` in [`dpk.
 You will be graded on the exhaustiveness and quality of your unit tests, the depth of your refactor, and the level of insight into your thought process provided by the written explanation.
 
 ## Your Explanation Here
+
+***
+
+- Renamed the function to include verb on it's name. Functions should reflect actions and verbs are precisely that.
+- Moved constants to the top of the file. Helps with readibility.
+- Flattened the code to avoid nested loops.
+- Extracted hash function to be able to reuse it.
